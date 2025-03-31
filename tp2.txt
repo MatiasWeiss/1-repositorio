@@ -1,0 +1,283 @@
+ACTIVIDAD N1
+
+
+1)¿Qué es GitHub?
+
+GitHub es una plataforma de desarrollo colaborativo basada en Git que permite a los usuarios alojar, administrar y compartir código.
+Proporciona herramientas para control de versiones, colaboración en equipo y despliegue de software.
+
+
+
+
+2)¿Cómo crear un repositorio en GitHub?
+
+1-Inicia sesión en GitHub.
+
+2-Haz clic en el botón "New" en la pestaña de repositorios.
+
+3-Introduce un nombre para el repositorio.
+
+4-Elige si será público o privado.
+
+5-Opcionalmente, agrega un README, un archivo .gitignore o una licencia.
+
+6-Haz clic en "Create repository".
+
+
+
+3)¿Cómo crear una rama en Git?
+
+git branch nombre-rama
+
+
+
+4)¿Cómo cambiar a una rama en Git?
+
+git checkout nombre-rama
+
+
+5)¿como fusionar ramas en git?
+
+git merge nombre-rama (estando en la rama principal)
+
+
+
+
+6)¿como crear un commit en git?
+
+primero se pone el siguiente codigo
+
+git add.
+
+despues
+
+git commit -m "Mensaje a eleccion"
+
+
+
+7)¿como enviar un commit a github?
+
+git push origin nombre-rama
+
+
+
+8)¿que es un repositorio remoto?
+
+Es un repositorio alojado en un servidor externo, como github, que permite la colaboracion
+entre varios desarrolladores
+
+
+
+9)¿como agregar un repositorio remoto a git?
+
+git remote add origin URL-del-repositorio
+
+
+
+
+10)¿como empujar cambios a un repositorio remoto?
+
+git push origin nombre-rama
+
+
+
+
+11)¿como tirar de cambios de un repositorio remoto?
+
+git pull origin nombre-rama
+
+
+12)¿que es un fork de repositorio?
+
+Es una copia de un repositorio de otro usuario en tu cuenta de GitHub, permitiendote
+cambios sin afectar el original.
+
+
+
+
+13)¿como crear un fork de un repositorio?
+
+1-ve al repositorio en github
+
+2- haz click en el boton "fork" en la parte superior derecha
+
+
+
+
+
+14)¿como enviar una solicitud de extraccion (pull request) a un repositorio?
+
+1-haz click en "New Pull Request" en github.
+
+2- selecciona la rama a fusionar.
+
+3- Agregar una descripcion y envia la solicitud.
+
+
+
+
+
+15)¿como aceptar una solicitud de extraccion?
+
+1- ve a la pestaña "pull requests" en github.
+
+2- abre la solicitud y revisa los cambios.
+
+3- haz click en "merge pull request" y confirma.
+
+
+
+
+16)¿que es una etiqueta en git?
+
+Una etiqueta es una referencia a un punto especifico del historial de git, generalmente usada 
+para versiones de software
+
+
+
+
+
+17)¿como crear una etiqueta de git?
+
+git tag -a v1.0 -m "Version 1.0"
+
+
+
+
+
+18)¿como enviar una etiquega a github?
+
+git push origin v1.0
+
+
+
+19)¿que es un historial de git?
+
+Es el registro de todos los cambios realizados  en un repositorio.
+
+
+20)¿como ver el historial de git?
+
+
+git log
+
+
+
+21)¿como borrar el historial de git?
+
+No se puede borrar completamente, pero se puede reiniciar:
+
+git rebase -1 HEAD~n
+
+
+22)¿que es un repositorio privado en github?
+
+Es un repositorio accesible solo para el propietario y los colaboradores autorizados
+
+
+23)¿como crear un repositorio privado en github?
+
+1-Inicia sesion en github
+
+2-Haz click en el boton "New" en la pestaña repositorios
+
+3-Introduce un nombre para el repositorio
+
+4-selecciona la opcion "private"
+
+5-opcionalmente, agregar un readme, un archivo gitignore o una licencia 
+
+6-hac click en "create repository"
+
+
+
+24)¿como invitar a alguien a un repositorio privado en github?
+
+1-ve a "settings" > "manage access".
+
+2-Agrega el nombre del usuario y envia la invitacion
+
+
+25)¿que es un repositorio publico en github?
+
+Es un repositorio accesible por cualquier persona en github
+
+
+26)¿como crear un repositorio publico en github?
+
+1-Inicia sesion en github
+
+2-Haz click en el boton "New" en la pestaña repositorios
+
+3-Introduce un nombre para el repositorio
+
+4-selecciona la opcion "public"
+
+5-opcionalmente, agrega un README, un archivo .gitignore o una licencia
+
+6-Haz click en "Create repository"
+
+
+
+27)¿como compartir un repositorio en github?
+
+puedes compartir la URL del repositorio con otros usuarios
+
+
+
+
+
+
+
+ACTIVIDAD N2
+
+https://github.com/MatiasWeiss/1-repositorio
+
+
+
+
+ACTIVIDAD N3
+
+https://github.com/MatiasWeiss/conflict-exercise
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
